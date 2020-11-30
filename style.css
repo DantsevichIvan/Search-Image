@@ -38,7 +38,7 @@
 }
 
 
-.photo{
+.modal{
     display: none;
     position: fixed;
     z-index: 999;
@@ -50,12 +50,18 @@
     justify-content: center;
     align-items: center;
 }
-.photo img{
+.modal div img{
     height: 100%;
+    width: 80%;
+
 }
-.photo button{
+.modal div{
+    display: flex;
+    justify-content: center;
+}
+.modal button{
     position: absolute;
-    left: 100px;
+    left: 80px;
     top: 30px;
 
 }
