@@ -1,0 +1,23 @@
+{
+  "name": "insoft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DantsevichIvan/Search-Image.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DantsevichIvan/Search-Image/issues"
+  },
+  "homepage": "https://dantsevichivan.github.io/Search-Image/.",
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}

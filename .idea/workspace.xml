@@ -35,6 +35,23 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.deploy" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -43,7 +60,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606735965591</updated>
-      <workItem from="1606735967162" duration="20351000" />
+      <workItem from="1606735967162" duration="21035000" />
     </task>
     <servers />
   </component>
@@ -51,9 +68,29 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1606757175951">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="161" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1606757175951" />
+    <state width="1259" height="161" key="GridCell.Tab.0.center" timestamp="1606757175951">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="161" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1606757175951" />
+    <state width="1259" height="161" key="GridCell.Tab.0.left" timestamp="1606757175950">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="161" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1606757175950" />
+    <state width="1259" height="161" key="GridCell.Tab.0.right" timestamp="1606757175951">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606757175951" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606749399092">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1606749399092" />
+    <state x="453" y="27" key="svn.repositoryBrowser" timestamp="1606757060548">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="453" y="27" key="svn.repositoryBrowser/0.0.1280.680@0.0.1280.680" timestamp="1606757060548" />
   </component>
 </project>
