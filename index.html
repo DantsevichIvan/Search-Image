@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <form method="post" action="" id="form" class="form">
     <input type="text" id="inputSearch">
-    <input type="submit" value="Search">
+    <input type="submit" value="Search" id="searchSubmit" >
 </form>
 <div class="gallery">
 
 </div>
-<div class="loader">
-    <img src="loading.gif" alt="Loading...">
+
+<div class="preloader" id="preloader">
+    <div class="loader"></div>
 </div>
 
 <div class="modal">
