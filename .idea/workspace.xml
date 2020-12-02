@@ -33,7 +33,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Cyber_Pizza_777" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -71,7 +71,8 @@
       <updated>1606735965591</updated>
       <workItem from="1606735967162" duration="25700000" />
       <workItem from="1606805216310" duration="35000" />
-      <workItem from="1606816251806" duration="6462000" />
+      <workItem from="1606816251806" duration="6765000" />
+      <workItem from="1606895214247" duration="4129000" />
     </task>
     <servers />
   </component>
@@ -79,10 +80,11 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1606805249276">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="2257" y="110" key="FileChooserDialogImpl" timestamp="1606896951983">
+      <screen x="1920" y="0" width="1024" height="779" />
     </state>
     <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1024.779@0.0.1280.680" timestamp="1606805249276" />
+    <state x="2257" y="110" key="FileChooserDialogImpl/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1606896951983" />
     <state width="1259" height="161" key="GridCell.Tab.0.bottom" timestamp="1606761911657">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

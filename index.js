@@ -10,14 +10,13 @@ window.addEventListener('load', () => {
     let preloader = document.querySelector('#preloader')
     preloader.style.display = 'none'
 })
-
 form.addEventListener('submit', async (e) => {
     e.preventDefault()
     app.getListImage([])
     gallery.innerHTML = ''
     let search = inputSearch.value
-    let preloader = document.querySelector('#preloader')
-    preloader.style.display = 'flex'
+    let progressLoader = document.querySelector('.progress')
+    progressLoader.style.display = 'block'
     searchSubmit.disabled = true
     try {
         let res = await fetch(`https://api.unsplash.com/search/photos?per_page=10&page=1&query=${search}`, {
@@ -32,35 +31,35 @@ form.addEventListener('submit', async (e) => {
         app.render()
         inputSearch.value = ''
         searchSubmit.disabled = false
-        preloader.style.display = 'none'
+        progressLoader.style.display = 'none'
     } catch (e) {
         console.log(e)
         searchSubmit.disabled = false
     }
 
 })
-closeBtn.addEventListener('click', ()=>{
+closeBtn.addEventListener('click', () => {
     app.closePhoto()
 })
 
 class App {
     constructor() {
         this.galleryArr = []
+        this.openPhoto = this.openPhoto.bind(this)
     }
     getListImage(galleryArr) {
         this.galleryArr = galleryArr
     }
-    openPhoto(ev) {
+    openPhoto = (ev) =>{
+        let preloader = document.querySelector('#preloader')
+        preloader.style.display = 'flex'
         let full = ev.currentTarget.full
         let img = document.createElement('img');
-        img.addEventListener('load', ()=>{
-            let preloader = document.querySelector('#preloader')
-            preloader.style.display = 'block'
-            preloader.style.display = 'none'
-        })
         img.src = full
+        preloader.style.display = 'none'
         modal.className += ' temp'
         photo.appendChild(img)
+
     }
     closePhoto() {
         photo.removeChild(photo.children[0])
@@ -72,17 +71,14 @@ class App {
             image.id = item.id
             image.src = item.urls.thumb
             image.full = item.urls.full
-            image.addEventListener('click', this.openPhoto.bind(this))
+            image.addEventListener('click',this.openPhoto)
             return (
                 gallery.prepend(image)
             )
         })
     }
 }
-
 const app = new App()
-
-
 
 
 // const form = document.getElementById('form')
