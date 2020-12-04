@@ -4,15 +4,18 @@
     align-items: center;
     margin-top: 30px;
 }
+
 .gallery {
     margin-top: 20px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .gallery > img {
     padding: 15px;
 }
+
 .preloader {
     display: flex;
     justify-content: center;
@@ -25,6 +28,7 @@
     top: 0;
     left: 0;
 }
+
 .loader {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
@@ -66,7 +70,14 @@
     }
 }
 
-.modal{
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+.modal {
     display: none;
     position: fixed;
     z-index: 999;
@@ -78,22 +89,26 @@
     justify-content: center;
     align-items: center;
 }
-.modal div img{
-    height: 100%;
-    width: 80%;
+
+.modal div img {
+    height: 500px;
+    width: 500px;
 
 }
-.modal div{
+
+.modal div {
     display: flex;
     justify-content: center;
 }
-.modal button{
+
+.modal button {
     position: absolute;
     left: 80px;
     top: 30px;
 
 }
-.temp{
-    display:flex!important;
+
+.temp {
+    display: flex !important;
 }
 

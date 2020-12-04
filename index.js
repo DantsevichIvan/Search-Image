@@ -54,19 +54,21 @@ class App {
         let preloader = document.querySelector('#preloader')
         preloader.style.display = 'flex'
         let full = ev.currentTarget.full
+        let div = document.createElement('div')
         let img = document.createElement('img');
-        let name = document.createElement('span')
-        name.value = full
+        let name = document.createElement('a')
+        name.href = full
+        name.innerHTML = full
         img.src = full
         preloader.style.display = 'none'
         modal.className += ' temp'
-        photo.appendChild(name)
-        photo.appendChild(img)
-
+        div.appendChild(name)
+        div.appendChild(img)
+        div.classList.add('container')
+        photo.appendChild(div)
     }
     closePhoto() {
         photo.removeChild(photo.children[0])
-        photo.removeChild(photo.children[1])
         modal.classList.remove('temp')
     }
     render() {
