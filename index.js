@@ -55,14 +55,18 @@ class App {
         preloader.style.display = 'flex'
         let full = ev.currentTarget.full
         let img = document.createElement('img');
+        let name = document.createElement('span')
+        name.value = full
         img.src = full
         preloader.style.display = 'none'
         modal.className += ' temp'
+        photo.appendChild(name)
         photo.appendChild(img)
 
     }
     closePhoto() {
         photo.removeChild(photo.children[0])
+        photo.removeChild(photo.children[1])
         modal.classList.remove('temp')
     }
     render() {

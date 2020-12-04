@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e4169fc2-9a0b-4ab6-bdd3-90d35b628e4f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,14 +69,30 @@
       <workItem from="1606735967162" duration="25700000" />
       <workItem from="1606805216310" duration="35000" />
       <workItem from="1606816251806" duration="6765000" />
-      <workItem from="1606895214247" duration="4129000" />
+      <workItem from="1606895214247" duration="4950000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: refactoring code">
+      <created>1606903198912</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606903198912</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: refactoring code" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: refactoring code" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="2057" y="0" key="CommitChangelistDialog2" timestamp="1606903197690">
+      <screen x="1920" y="0" width="1024" height="779" />
+    </state>
+    <state x="2057" y="0" key="CommitChangelistDialog2/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1606903197690" />
     <state x="2257" y="110" key="FileChooserDialogImpl" timestamp="1606896951983">
       <screen x="1920" y="0" width="1024" height="779" />
     </state>
@@ -101,6 +114,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1259" height="161" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1606761911656" />
+    <state x="2025" y="123" key="Vcs.Push.Dialog.v2" timestamp="1606903201014">
+      <screen x="1920" y="0" width="1024" height="779" />
+    </state>
+    <state x="2025" y="123" key="Vcs.Push.Dialog.v2/0.0.1280.680/1920.0.1024.779@1920.0.1024.779" timestamp="1606903201014" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1606749399092">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
